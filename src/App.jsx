@@ -31,13 +31,6 @@ function App() {
       }}
     >
       <div className="w-full  h-full flex flex-col justify-center items-center backdrop-blur-sm bg-black/10">
-         <div className=" h-8 w-8 flex items-center justify-center mb-5">
-            <SuprSendInbox
-              workspaceKey={process.env.SUPRSEND_WORKSPACE_SECRET}
-              subscriberId="<subscriber_id>"
-              distinctId="<distinct_id>"
-            />
-          </div>
         <div className="w-full  max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-md bg-white/20">
           <form
             onSubmit={(e) => {
